@@ -1,67 +1,92 @@
 {
-    "activities": [{
-        "id": 1,
-        "title": "Arrumar a Cozinha",
-        "description": "Arrumar toda a Casa",
-        "startedAt": "2017-26-08",
-        "endedAt": "2017-27-08",
-        "teenId": 1,
-        "createdAt": "2017-26-08",
-        "responsibleId": 1
-    }],
-    "tasks": [{
-        "id": 1,
-        "title": "Arrumar Dispensa Cozinha",
-        "description": "Organizar os produtos que tem na dispensa",
-        "startedAt": "2017-26-08",
-        "endedAt": "2017-27-08",
-        "teenId": 1,
-        "activityId": 1,
-        "createdAt": "2017-26-08",
-        "responsibleId": "1",
-        "reward": 120.00
-    }, {
-        "id": 2,
-        "title": "Arrumar Quarto",
-        "description": "Arrumar o quarto bonitinho",
-        "startedAt": "2017-26-08",
-        "endedAt": "2017-27-08",
-        "teenId": 1,
-        "activityId": null,
-        "createdAt": "2017-26-08",
-        "responsibleId": "1",
-        "reward": 100.00
-    }, {
-        "id": 3,
-        "title": "Lavar Chão Cozinha",
-        "description": "Lavar chão cozinha",
-        "startedAt": "2017-26-08",
-        "endedAt": "2017-27-08",
-        "teenId": 1,
-        "activityId": 1,
-        "createdAt": "2017-26-08",
-        "responsibleId": "1",
-        "reward": 80.00
-    }],
-    "responsibles": [{
-        "id": 1,
-        "name": "Pablito Antônio",
-        "email": "pablito@mailteste.com",
-        "cardId": 1,
-        "password": "io12oij12oije1"
-    }],
-    "cards": [{
-        "id": 1,
-        "cardNumber": "4444555544448888"
-    }, {
-        "id": 2,
-        "cardNumber": "9999888877776666"
-    }],
-    "teens": [{
-        "id": 1,
-        "name": "Kaleb Lima",
-        "email": "kalebinho@mailtest.com",
-        "cardId": 2,
-        "password": "asdkpqwkd2131ui23hiu"
-    }]
+  "activities": [
+    {
+      "id": 1,
+      "title": "Arrumar a Cozinha",
+      "description": "Arrumar toda a Casa",
+      "startedAt": "2017-26-08",
+      "endedAt": "2017-27-08",
+      "teenId": 1,
+      "createdAt": "2017-26-08",
+      "responsibleId": 1
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Arrumar Dispensa Cozinha",
+      "description": "Organizar os produtos que tem na dispensa",
+      "startedAt": "2017-26-08",
+      "endedAt": "2017-27-08",
+      "teenId": 1,
+      "activityId": 1,
+      "createdAt": "2017-26-08",
+      "responsibleId": "1",
+      "reward": 120
+    },
+    {
+      "id": 2,
+      "title": "Arrumar Quarto",
+      "description": "Arrumar o quarto bonitinho",
+      "startedAt": "2017-26-08",
+      "endedAt": "2017-27-08",
+      "teenId": 1,
+      "activityId": null,
+      "createdAt": "2017-26-08",
+      "responsibleId": "1",
+      "reward": 100
+    },
+    {
+      "id": 3,
+      "title": "Lavar Chão Cozinha",
+      "description": "Lavar chão cozinha",
+      "startedAt": "2017-26-08",
+      "endedAt": "2017-27-08",
+      "teenId": 1,
+      "activityId": 1,
+      "createdAt": "2017-26-08",
+      "responsibleId": "1",
+      "reward": 80
+    }
+  ],
+  "responsibles": [
+    {
+      "id": 1,
+      "name": "Pablito Antônio",
+      "email": "pablito@mailteste.com",
+      "cardId": 1,
+      "password": "io12oij12oije1"
+    },
+    {
+      "id": 4,
+      "title": "Arrumar Dispensa Cozinha",
+      "description": "Organizar os produtos que tem na dispensa",
+      "startedAt": "2017-26-08",
+      "endedAt": "2017-27-08",
+      "teenId": 1,
+      "activityId": 1,
+      "createdAt": "2017-26-08",
+      "responsibleId": "1",
+      "reward": 120
+    }
+  ],
+  "cards": [
+    {
+      "id": 1,
+      "cardNumber": "4444555544448888"
+    },
+    {
+      "id": 2,
+      "cardNumber": "9999888877776666"
+    }
+  ],
+  "teens": [
+    {
+      "id": 1,
+      "name": "Kaleb Lima",
+      "email": "kalebinho@mailtest.com",
+      "cardId": 2,
+      "password": "asdkpqwkd2131ui23hiu"
+    }
+  ]
 }
