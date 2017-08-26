@@ -47,7 +47,8 @@
         "id": 1,
         "name": "Pablito Antônio",
         "email": "pablito@mailteste.com",
-        "cardId": 1
+        "cardId": 1,
+        "password": "io12oij12oije1"
     }],
     "cards": [{
         "id": 1,
@@ -60,6 +61,7 @@
         "id": 1,
         "name": "Kaleb Lima",
         "email": "kalebinho@mailtest.com",
-        "cardId": 2
+        "cardId": 2,
+        "password": "asdkpqwkd2131ui23hiu"
     }]
 }
