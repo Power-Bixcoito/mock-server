@@ -1,0 +1,21 @@
+{
+    "activities": [{
+        "id": 1,
+        "title": "Arrumar o Quarto",
+        "description": "Arrumar o quarto bem arrumadinho",
+        "startDate": "2017-26-08",
+        "endDate": "2017-27-08",
+        "teenId": 1,
+        "createdAt": "2017-26-08",
+        "responsibleId": 1
+    }, {
+        "id": 2,
+        "title": "Arrumar a Sala",
+        "description": "Arrumar a Sala bem arrumada",
+        "startDate": "2017-26-08",
+        "endDate": "2017-27-08",
+        "teenId": 1,
+        "createdAt": "2017-26-08",
+        "responsibleId": 1
+    }]
+}
