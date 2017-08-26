@@ -42,5 +42,24 @@
         "createdAt": "2017-26-08",
         "responsibleId": "1",
         "reward": 80.00
+    }],
+    "responsibles": [{
+        "id": 1,
+        "name": "Pablito Antônio",
+        "email": "pablito@mailteste.com",
+        "cardId": 1
+    }],
+    "cards": [{
+        "id": 1,
+        "cardNumber": "4444555544448888"
+    }, {
+        "id": 2,
+        "cardNumber": "9999888877776666"
+    }],
+    "teens": [{
+        "id": 1,
+        "name": "Kaleb Lima",
+        "email": "kalebinho@mailtest.com",
+        "cardId": 2
     }]
 }
