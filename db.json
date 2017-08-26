@@ -1,21 +1,46 @@
 {
     "activities": [{
         "id": 1,
-        "title": "Arrumar o Quarto",
-        "description": "Arrumar o quarto bem arrumadinho",
-        "startDate": "2017-26-08",
-        "endDate": "2017-27-08",
+        "title": "Arrumar a Cozinha",
+        "description": "Arrumar toda a Casa",
+        "startedAt": "2017-26-08",
+        "endedAt": "2017-27-08",
         "teenId": 1,
         "createdAt": "2017-26-08",
         "responsibleId": 1
+    }],
+    "tasks": [{
+        "id": 1,
+        "title": "Arrumar Dispensa Cozinha",
+        "description": "Organizar os produtos que tem na dispensa",
+        "startedAt": "2017-26-08",
+        "endedAt": "2017-27-08",
+        "teenId": 1,
+        "activityId": 1,
+        "createdAt": "2017-26-08",
+        "responsibleId": "1",
+        "reward": 120.00
     }, {
         "id": 2,
-        "title": "Arrumar a Sala",
-        "description": "Arrumar a Sala bem arrumada",
-        "startDate": "2017-26-08",
-        "endDate": "2017-27-08",
+        "title": "Arrumar Quarto",
+        "description": "Arrumar o quarto bonitinho",
+        "startedAt": "2017-26-08",
+        "endedAt": "2017-27-08",
         "teenId": 1,
+        "activityId": null,
         "createdAt": "2017-26-08",
-        "responsibleId": 1
+        "responsibleId": "1",
+        "reward": 100.00
+    }, {
+        "id": 3,
+        "title": "Lavar Chão Cozinha",
+        "description": "Lavar chão cozinha",
+        "startedAt": "2017-26-08",
+        "endedAt": "2017-27-08",
+        "teenId": 1,
+        "activityId": 1,
+        "createdAt": "2017-26-08",
+        "responsibleId": "1",
+        "reward": 80.00
     }]
 }
